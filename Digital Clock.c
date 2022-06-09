@@ -52,7 +52,7 @@ char * formulaTime(int s, int m, int h)
 int main()
 {
 	int s = 0, m = 0, h = 0;
-	while(true)
+	while(1)
 	{
 		printf("%s",formulaTime(s++,m,h));
 		if(s > 59)
@@ -71,7 +71,7 @@ int main()
 			m = 0;
 			h = 0;
 		}
-		sleep(0.001);
+		sleep(1);
 		system("cls");
 		
 	}
